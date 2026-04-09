@@ -1,0 +1,119 @@
+[2026-04-09T18:02:06Z] === ENRICH ITERATION 1 START | repo=ipython/ipython sha=b5734353 ===
+[2026-04-09T18:02:06Z] [iter=1] PHASE START: enrich repo=ipython/ipython sha=b5734353 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b5734353-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b5734353b6d697be2bc4bc98333b0d29462533f9.nq.gz
+[2026-04-09T18:02:06Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-09T18:02:23Z] [iter=1] AST store loaded triples=2098777 load_secs=16 mem_mb=905 MB
+[2026-04-09T18:02:23Z] [iter=1] Step 2: Finding LSP targets mem_mb=905 MB
+[2026-04-09T18:02:27Z] [iter=1] LSP targets found call_sites=14203 imports=1773 extends=400 implements=0 secs=4
+[2026-04-09T18:02:31Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=905 MB
+[2026-04-09T18:02:42Z] [iter=1] Position index built positions=148481 nodes_with_types=192484 secs=12 mem_mb=905 MB
+[2026-04-09T18:02:42Z] [iter=1] Step 3: Starting LSP resolution mem_mb=905 MB already_completed_types=[] already_completed_files=0
+[2026-04-09T18:02:42Z] [iter=1] Resolving target type target_type=call_site count=14203
+[2026-04-09T18:02:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=0 resolved=0 errors=0 current=IPython/utils/_process_win32_controller.py
+[2026-04-09T18:03:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=1 resolved=69 errors=60 current=IPython/testing/iptestcontroller.py
+[2026-04-09T18:04:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=2 resolved=136 errors=142 current=IPython/testing/tools.py
+[2026-04-09T18:05:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=3 resolved=174 errors=189 current=IPython/core/tests/test_completer.py
+[2026-04-09T18:08:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=4 resolved=201 errors=376 current=IPython/sphinxext/ipython_directive.py
+[2026-04-09T18:09:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.8 files_done=5 resolved=271 errors=498 current=IPython/core/macro.py
+[2026-04-09T18:11:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.7 files_done=8 resolved=354 errors=629 current=IPython/lib/tests/test_pretty.py
+[2026-04-09T18:12:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=9 resolved=393 errors=710 current=IPython/core/magics/osm.py
+[2026-04-09T18:14:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.2 files_done=10 resolved=475 errors=808 current=IPython/core/tests/test_magic.py
+[2026-04-09T18:17:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=11 resolved=522 errors=1017 current=IPython/core/magics/basic.py
+[2026-04-09T18:18:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.5 files_done=12 resolved=549 errors=1104 current=tools/backport_pr.py
+[2026-04-09T18:24:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.3 files_done=14 resolved=768 errors=1502 current=IPython/core/page.py
+[2026-04-09T18:24:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.8 files_done=15 resolved=815 errors=1537 current=IPython/core/prompts.py
+[2026-04-09T18:25:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.6 files_done=16 resolved=841 errors=1599 current=IPython/testing/decorators.py
+[2026-04-09T18:27:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.9 files_done=18 resolved=911 errors=1688 current=IPython/core/formatters.py
+[2026-04-09T18:27:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.8 files_done=19 resolved=957 errors=1754 current=IPython/utils/tests/test_text.py
+[2026-04-09T18:28:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.7 files_done=20 resolved=978 errors=1812 current=IPython/utils/terminal.py
+[2026-04-09T18:30:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.7 files_done=22 resolved=1071 errors=1956 current=IPython/lib/backgroundjobs.py
+[2026-04-09T18:31:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.3 files_done=23 resolved=1101 errors=1997 current=IPython/utils/tests/test_tokenutil.py
+[2026-04-09T18:32:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.9 files_done=25 resolved=1170 errors=2107 current=IPython/core/builtin_trap.py
+[2026-04-09T18:33:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.8 files_done=27 resolved=1239 errors=2168 current=IPython/utils/tests/test_io.py
+[2026-04-09T18:35:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.3 files_done=30 resolved=1338 errors=2276 current=IPython/html.py
+[2026-04-09T18:36:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.2 files_done=32 resolved=1374 errors=2334 current=IPython/core/inputsplitter.py
+[2026-04-09T18:37:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.1 files_done=33 resolved=1403 errors=2403 current=IPython/extensions/tests/test_autoreload.py
+[2026-04-09T18:38:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.1 files_done=34 resolved=1420 errors=2473 current=IPython/core/completer.py
+[2026-04-09T18:39:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.7 files_done=35 resolved=1499 errors=2580 current=IPython/utils/_process_common.py
+[2026-04-09T18:42:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.2 files_done=37 resolved=1638 errors=2759 current=IPython/lib/inputhookqt4.py
+[2026-04-09T18:43:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.2 files_done=39 resolved=1705 errors=2828 current=IPython/core/tests/test_oinspect.py
+[2026-04-09T18:44:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.2 files_done=40 resolved=1722 errors=2903 current=IPython/lib/tests/test_backgroundjobs.py
+[2026-04-09T18:45:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.1 files_done=42 resolved=1786 errors=2963 current=IPython/lib/display.py
+[2026-04-09T18:46:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.4 files_done=44 resolved=1868 errors=3060 current=IPython/terminal/interactiveshell.py
+[2026-04-09T18:48:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.4 files_done=45 resolved=1903 errors=3201 current=IPython/core/extensions.py
+[2026-04-09T18:49:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.8 files_done=48 resolved=1947 errors=3300 current=IPython/core/debugger.py
+[2026-04-09T18:50:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.8 files_done=49 resolved=2011 errors=3369 current=IPython/lib/pretty.py
+[2026-04-09T18:53:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.3 files_done=50 resolved=2080 errors=3549 current=IPython/utils/timing.py
+[2026-04-09T18:54:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.6 files_done=52 resolved=2141 errors=3640 current=IPython/core/magics/history.py
+[2026-04-09T18:55:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.1 files_done=53 resolved=2165 errors=3678 current=IPython/core/tests/test_history.py
+[2026-04-09T18:55:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.6 files_done=54 resolved=2205 errors=3714 current=IPython/utils/strdispatch.py
+[2026-04-09T18:56:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.7 files_done=57 resolved=2252 errors=3792 current=IPython/core/history.py
+[2026-04-09T18:57:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.8 files_done=58 resolved=2298 errors=3866 current=IPython/core/tests/test_completerlib.py
+[2026-04-09T18:58:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.4 files_done=60 resolved=2335 errors=3909 current=IPython/core/tests/test_inputsplitter.py
+[2026-04-09T19:02:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.0 files_done=61 resolved=2351 errors=4164 current=IPython/terminal/embed.py
+[2026-04-09T19:03:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.9 files_done=63 resolved=2387 errors=4234 current=IPython/core/tests/test_interactiveshell.py
+[2026-04-09T19:06:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.9 files_done=64 resolved=2449 errors=4513 current=IPython/utils/tests/test_process.py
+[2026-04-09T19:07:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.4 files_done=65 resolved=2451 errors=4551 current=IPython/lib/inputhookglut.py
+[2026-04-09T19:08:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=66.5 files_done=68 resolved=2498 errors=4631 current=IPython/core/tests/test_formatters.py
+[2026-04-09T19:10:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.7 files_done=69 resolved=2510 errors=4785 current=IPython/utils/path.py
+[2026-04-09T19:11:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=69.3 files_done=70 resolved=2566 errors=4827 current=IPython/core/magics/extension.py
+[2026-04-09T19:12:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.3 files_done=73 resolved=2624 errors=4897 current=docs/autogen_magics.py
+[2026-04-09T19:13:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.0 files_done=76 resolved=2659 errors=4950 current=IPython/utils/io.py
+[2026-04-09T19:14:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.4 files_done=79 resolved=2779 errors=5047 current=IPython/core/tests/test_inputtransformer.py
+[2026-04-09T19:15:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.3 files_done=80 resolved=2782 errors=5113 current=IPython/testing/tests/test_decorators.py
+[2026-04-09T19:16:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.9 files_done=83 resolved=2836 errors=5156 current=IPython/utils/PyColorize.py
+[2026-04-09T19:16:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.5 files_done=85 resolved=2859 errors=5195 current=IPython/lib/tests/test_display.py
+[2026-04-09T19:17:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=75.0 files_done=86 resolved=2893 errors=5231 current=IPython/utils/tests/test_wildcard.py
+[2026-04-09T19:17:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=75.6 files_done=88 resolved=2925 errors=5275 current=IPython/terminal/console.py
+[2026-04-09T19:19:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=77.8 files_done=91 resolved=3031 errors=5434 current=IPython/lib/inputhook.py
+[2026-04-09T19:20:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=78.5 files_done=92 resolved=3046 errors=5480 current=tools/test_pr.py
+[2026-04-09T19:21:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=79.0 files_done=93 resolved=3127 errors=5516 current=IPython/core/tests/test_paths.py
+[2026-04-09T19:21:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=79.7 files_done=95 resolved=3199 errors=5570 current=IPython/lib/deepreload.py
+[2026-04-09T19:22:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=80.4 files_done=97 resolved=3248 errors=5619 current=IPython/core/magic_arguments.py
+[2026-04-09T19:23:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.3 files_done=99 resolved=3284 errors=5681 current=IPython/terminal/ipapp.py
+[2026-04-09T19:24:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.1 files_done=101 resolved=3324 errors=5737 current=IPython/core/magic.py
+[2026-04-09T19:24:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.9 files_done=102 resolved=3367 errors=5793 current=IPython/utils/_tokenize_py3.py
+[2026-04-09T19:26:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.1 files_done=103 resolved=3392 errors=5879 current=IPython/core/tests/test_extension.py
+[2026-04-09T19:27:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.7 files_done=105 resolved=3409 errors=5992 current=IPython/extensions/autoreload.py
+[2026-04-09T19:28:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=86.5 files_done=106 resolved=3441 errors=6050 current=scripts/ipython_win_post_install.py
+[2026-04-09T19:29:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=87.2 files_done=108 resolved=3476 errors=6098 current=IPython/lib/tests/test_latextools.py
+[2026-04-09T19:30:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=88.1 files_done=110 resolved=3520 errors=6163 current=IPython/core/profiledir.py
+[2026-04-09T19:30:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=88.7 files_done=112 resolved=3548 errors=6205 current=IPython/core/alias.py
+[2026-04-09T19:32:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=89.9 files_done=114 resolved=3639 errors=6289 current=docs/sphinxext/apigen.py
+[2026-04-09T19:32:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=90.6 files_done=115 resolved=3689 errors=6336 current=IPython/core/tests/test_ultratb.py
+[2026-04-09T19:33:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=91.8 files_done=116 resolved=3713 errors=6423 current=tools/github_stats.py
+[2026-04-09T19:34:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=92.3 files_done=117 resolved=3764 errors=6460 current=IPython/lib/security.py
+[2026-04-09T19:35:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=93.5 files_done=119 resolved=3796 errors=6541 current=IPython/testing/tests/test_tools.py
+[2026-04-09T19:36:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=94.3 files_done=121 resolved=3837 errors=6599 current=IPython/utils/tempdir.py
+[2026-04-09T19:37:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.4 files_done=123 resolved=3897 errors=6672 current=IPython/utils/tz.py
+[2026-04-09T19:37:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.9 files_done=127 resolved=3920 errors=6709 current=tools/tests/heartbeat/hb_gil.py
+[2026-04-09T19:39:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.0 files_done=130 resolved=3949 errors=6791 current=tools/make_tarball.py
+[2026-04-09T19:39:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.6 files_done=132 resolved=3980 errors=6827 current=IPython/utils/tests/test_openpy.py
+[2026-04-09T19:40:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=98.3 files_done=135 resolved=4028 errors=6883 current=IPython/utils/tokenutil.py
+[2026-04-09T19:41:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=99.3 files_done=138 resolved=4080 errors=6948 current=IPython/core/tests/test_magic_terminal.py
+[2026-04-09T19:42:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.1 files_done=140 resolved=4102 errors=7009 current=IPython/core/tests/test_hooks.py
+[2026-04-09T19:42:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.6 files_done=144 resolved=4126 errors=7045 current=IPython/core/magics/deprecated.py
+[2026-04-09T19:43:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=101.2 files_done=148 resolved=4161 errors=7084 current=setup.py
+[2026-04-09T19:44:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=101.9 files_done=151 resolved=4195 errors=7138 current=IPython/utils/_tokenize_py2.py
+[2026-04-09T19:44:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=102.6 files_done=152 resolved=4213 errors=7186 current=IPython/utils/frame.py
+[2026-04-09T19:45:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=103.2 files_done=159 resolved=4251 errors=7231 current=IPython/lib/editorhooks.py
+[2026-04-09T19:46:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=104.2 files_done=161 resolved=4260 errors=7297 current=IPython/utils/syspathcontext.py
+[2026-04-09T19:46:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=104.8 files_done=166 resolved=4293 errors=7342 current=docs/autogen_api.py
+[2026-04-09T19:47:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=105.4 files_done=170 resolved=4311 errors=7382 current=IPython/lib/tests/test_lexers.py
+[2026-04-09T19:48:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=105.9 files_done=173 resolved=4325 errors=7418 current=tools/gen_latex_symbols.py
+[2026-04-09T19:48:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=106.6 files_done=177 resolved=4348 errors=7462 current=IPython/core/tests/test_application.py
+[2026-04-09T19:49:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=107.1 files_done=183 resolved=4379 errors=7498 current=IPython/core/release.py
+[2026-04-09T19:49:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=107.7 files_done=190 resolved=4404 errors=7542 current=IPython/core/magics/display.py
+[2026-04-09T19:50:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=108.2 files_done=197 resolved=4423 errors=7579 current=examples/Embedding/embed_class_long.py
+[2026-04-09T19:50:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=108.7 files_done=203 resolved=4456 errors=7616 current=tools/tests/embed/embed_no_division.py
+[2026-04-09T19:51:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=109.3 files_done=212 resolved=4492 errors=7658 current=examples/Embedding/embed_function.py
+[2026-04-09T19:51:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=109.8 files_done=225 resolved=4527 errors=7694 current=IPython/testing/plugin/iptest.py
+[2026-04-09T19:52:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=110.4 files_done=243 resolved=4565 errors=7731 current=IPython/utils/contexts.py
+[2026-04-09T19:52:46Z] [iter=1] Target type resolved target_type=call_site resolved=4588 errors=7753 secs=6604 mem_mb=905 MB
+[2026-04-09T19:52:46Z] [iter=1] Resolving target type target_type=import_statement count=1773
+[2026-04-09T19:52:57Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=110.9 files_done=130 resolved=1113 errors=0 current=IPython/lib/kernel.py
+[2026-04-09T19:53:01Z] [iter=1] Target type resolved target_type=import_statement resolved=1552 errors=0 secs=15 mem_mb=905 MB
+[2026-04-09T19:53:01Z] [iter=1] Resolving target type target_type=extends_clause count=400
+[2026-04-09T19:53:06Z] [iter=1] Target type resolved target_type=extends_clause resolved=366 errors=0 secs=5 mem_mb=905 MB
+[2026-04-09T19:53:19Z] [iter=1] Step 5: Writing final enrichment file triples=140101
+[2026-04-09T19:53:23Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/b5734353b6d697be2bc4bc98333b0d29462533f9.nq.gz size_kb=3158
+[2026-04-09T19:53:23Z] [iter=1] PHASE END: enrich elapsed_s=6677 elapsed_min=111.3 total_triples=140101
